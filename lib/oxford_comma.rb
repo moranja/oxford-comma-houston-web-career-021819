@@ -1,6 +1,6 @@
 def oxford_comma(array)
   last_entry = array.pop
-  new_string = array.split(, )
+  new_string = array.split(,)
   new_string << ', and'
   new_string << '#{last_entry}'
   return new_string
